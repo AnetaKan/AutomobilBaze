@@ -18,7 +18,7 @@ Spajamo tabelu Prodavac sa tabelom Prodaja po zajednickoj osobini i time smo nap
  ## UPITI
 
 
-1. Izlistali smo osobe cija je plata izmedju 3500 i 10000 i spojili smo tabele po id-ju
+1. Izlistali smo prodavce koji su kupili automobile cija je cena izmedju 3500 i 10000 i spojili smo tabele po id-ju
 
 SELECT pr.ime, p.kolicina, p.cena, p.datum
 FROM Prodaja p, Prodavac pr
